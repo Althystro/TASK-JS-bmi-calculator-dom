@@ -10,15 +10,15 @@ function calculateBMI() {
   let meter = height / 100;
   let bmi = weight / (meter * meter);
   //Challenge 2
-  // if (bmi <= 18.4) {
-  //   alert("Underweight");
-  // } else if (bmi >= 18.5 && bmi <= 24.9) {
-  //   alert("Healthy Weight");
-  // } else if (bmi >= 25.0 && bmi <= 29.9) {
-  //   alert("Over Weight");
-  // } else {
-  //   alert("Above obesity");
-  // }
+  if (bmi <= 18.4) {
+    alert("Underweight");
+  } else if (bmi >= 18.5 && bmi <= 24.9) {
+    alert("Healthy Weight");
+  } else if (bmi >= 25.0 && bmi <= 29.9) {
+    alert("Over Weight");
+  } else {
+    alert("Above obesity");
+  }
 
   //Challenge 3
   if (age >= 19 && age <= 24 && bmi >= 19 && bmi <= 24) {
